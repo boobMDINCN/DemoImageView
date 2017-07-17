@@ -9,8 +9,10 @@ import android.util.AttributeSet;
  */
 
 public class PorterDuffImageView extends AppCompatImageView {
+    private int height = 0 ;
     public PorterDuffImageView(Context context) {
         super(context);
+
     }
 
     public PorterDuffImageView(Context context, AttributeSet attrs) {
